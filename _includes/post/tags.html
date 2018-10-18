@@ -2,9 +2,9 @@
 {% unless tag == '0' %}
 <span class="tags">
   {% if post %}
-    {{ post.tags | tag_links }}
+    {{ post.tags | join: " , " }}
   {% else %}
-    {{ page.tags | tag_links }}
+    {{ page.tags | join: " , " }}
   {% endif %}
 </span>
 {% endunless %}
