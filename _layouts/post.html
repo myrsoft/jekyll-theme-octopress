@@ -37,10 +37,20 @@ sidebar: false
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
-  {% if site.post_asides.size %}
-    {% include_array post_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
+  {% unless site.post_asides.recent_posts == false %}
+    {% include asides/github.html %}
+  {% endunless %}
+  {% unless site.post_asides.recent_posts == false %}
+    {% include asides/recent_posts.html %}
+  {% endunless %}
+  {% unless site.post_asides.recent_posts == false %}
+    {% include asides/pinboard.html %}
+  {% endunless %}
+  {% unless site.post_asides.recent_posts == false %}
+    {% include asides/googleplus.html %}
+  {% endunless %}
+  {% unless site.post_asides.recent_posts == false %}
+    {% include asides/delicious.html %}
+  {% endunless %}
 </aside>
 {% endunless %}

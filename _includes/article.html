@@ -17,13 +17,19 @@
   </header>
 {% endunless %}
 {% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
+  <div class="entry-content">{{ post.excerpt }}</div>
+  {% capture excerpted %}{{ post.excerpt | has_excerpt }}{% endcapture %}
     <footer>
+      <p class="meta">
+        {% include post/author.html %}
+       于 {% include post/date.html %}{% if updated %}{{ updated }} 编辑. {% else %}{{ time }} 写下. {% endif %}
+       全文共 {{ content | strip_html | strip_newlines | remove: " " | size }} 字
+        {% include post/categories.html %}
+      </p>
+      {% if post.excerpt != post.content %}
       <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
+      {% endif %}
     </footer>
-  {% endif %}
 {% else %}
 <div class="entry-content">{{ content }}</div>
 {% endif %}

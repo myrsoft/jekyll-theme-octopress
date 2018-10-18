@@ -20,10 +20,22 @@ layout: default
     {% endif %}
   </div>
 </div>
+{% unless page.sidebar == false %}
 <aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/github.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/recent_posts.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/pinboard.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/googleplus.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/delicious.html %}
+  {% endunless %}
 </aside>
+{% endunless %}
