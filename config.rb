@@ -6,16 +6,16 @@ project_type = :stand_alone
 # Publishing paths
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "/stylesheets"
-http_images_path = "/images"
-http_generated_images_path = "/images"
-http_fonts_path = "/fonts"
+css_dir = "/assets/stylesheets"
+http_images_path = "/assets/images"
+http_generated_images_path = "/assets/images"
+http_fonts_path = "/assets/fonts"
 
 # Local development paths
 sass_dir = "_sass"
-images_dir = "images"
-fonts_dir = "fonts"
-javascripts_dir = "javascripts"
+images_dir = "/assets/images"
+fonts_dir = "/assets/fonts"
+javascripts_dir = "/assets/javascripts"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
