@@ -1,43 +1,56 @@
 # jekyll-theme-octopress
 
-Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your sass files in `_sass` and any other assets in `assets`.
+jekyll-theme-octopress 是一个 Jekyll 的主题。
+我以前使用了很长时间 Octopress 作为我的博客程序。但是 Octopress 已经很久不再维护了，所以现在她有很多的缺点了比如使用起来生成网页效率也太低、不支持 Jekyll 的一些新特性等等。可以我又非常习惯和喜欢 Octopress 的 classic 主题。所以我就创建了这个主题。
+该主题继承自 Octopress 的 classic 主题，我只是在上面做了一些让她适合我使用的修改。详细的修改内容请参见 [修改记录](ChangeLog) 与 git 的提交历史。
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+## 运行环境
 
-TODO: Delete this and the text above, and describe your gem
+- ruby：
+- Jekyll：
+- jekyll-plugin：
 
+## 安装
 
-## Installation
-
-Add this line to your Jekyll site's `Gemfile`:
+添加这行内容到你的 Jekyll 站点的 `Gemfile` 文件中：
 
 ```ruby
 gem "jekyll-theme-octopress"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+然后添加这行内容到你的 Jekyll 站点的 `_config.yml` 文件中：
 
 ```yaml
 theme: jekyll-theme-octopress
 ```
 
-And then execute:
+然后执行:
 
     $ bundle
 
-Or install it yourself as:
+或者自己安装:
 
     $ gem install jekyll-theme-octopress
 
-## Usage
+## 使用
 
 TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
 
-## Contributing
+## layouts
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+## includes
 
-## Development
+## assets
+
+## 使用进阶
+
+### 自定义导航栏
+
+## 贡献
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/myrsoft/jekyll-theme-octopress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## 开发
 
 To set up your environment to develop this theme, run `bundle install`.
 
@@ -46,7 +59,21 @@ Your theme is setup just like a normal Jekyll site! To test your theme, run `bun
 When your theme is released, only the files in `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
 To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-octopress.gemspec` accordingly.
 
-## License
+See the [Develop](Develop) file.
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+## Release (Change log)
 
+See the [ChangeLog](ChangeLog) file.
+
+## 致谢
+
+[Brandon Mathis](https://github.com/imathis)
+
+## 参考资料
+
+- https://jekyllrb.com
+- https://github.com/imathis/octopress
+
+## 开源许可
+
+该主题使用 [MIT License](https://opensource.org/licenses/MIT) 许可证开放源代码。
