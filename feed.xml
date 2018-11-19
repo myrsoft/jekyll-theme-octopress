@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://myrsoft.github.io/jekyll-theme-octopress/feed.xml" rel="self" type="application/atom+xml" /><link href="https://myrsoft.github.io/jekyll-theme-octopress/" rel="alternate" type="text/html" /><updated>2018-11-19T16:00:53+08:00</updated><id>https://myrsoft.github.io/jekyll-theme-octopress/feed.xml</id><title type="html">演示网站</title><subtitle>这是一个 jekyll-theme-octopress 主题的演示网站.</subtitle><author><name>Raven Du</name></author><entry><title type="html">欢迎来到 jekyll-theme-octopress!</title><link href="https://myrsoft.github.io/jekyll-theme-octopress/2018/11/welcome-to-jekyll/" rel="alternate" type="text/html" title="欢迎来到 jekyll-theme-octopress!" /><published>2018-11-19T13:16:29+08:00</published><updated>2018-11-19T13:16:29+08:00</updated><id>https://myrsoft.github.io/jekyll-theme-octopress/2018/11/welcome-to-jekyll</id><content type="html" xml:base="https://myrsoft.github.io/jekyll-theme-octopress/2018/11/welcome-to-jekyll/">&lt;p&gt;jekyll-theme-octopress 是一个 Jekyll 的主题。&lt;/p&gt;
+
+&lt;p&gt;我以前使用了很长时间 Octopress 作为我的博客程序。但是 Octopress 已经很久不再维护了，所以现在她有很多的缺点了比如使用起来生成网页效率也太低、不支持 Jekyll 的一些新特性等等。可以我又非常习惯和喜欢 Octopress 的 classic 主题。所以我就创建了这个主题。&lt;/p&gt;
+
+&lt;p&gt;该主题继承自 Octopress 的 classic 主题，我只是在上面做了一些让她适合我使用的修改。详细的修改内容请参见 &lt;a href=&quot;ChangeLog&quot;&gt;修改记录&lt;/a&gt; 与 git 的提交历史。&lt;/p&gt;
+
+&lt;h2 id=&quot;运行环境&quot;&gt;运行环境&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ruby：&lt;/li&gt;
+  &lt;li&gt;Jekyll：&lt;/li&gt;
+  &lt;li&gt;jekyll-plugin：&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;安装&quot;&gt;安装&lt;/h2&gt;
+
+&lt;p&gt;添加这行内容到你的 Jekyll 站点的 &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; 文件中：&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;jekyll-theme-octopress&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后添加这行内容到你的 Jekyll 站点的 &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; 文件中：&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;jekyll-theme-octopress&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;然后执行:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ bundle
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;或者自己安装:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ gem install jekyll-theme-octopress
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;使用&quot;&gt;使用&lt;/h2&gt;
+
+&lt;p&gt;TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.&lt;/p&gt;
+
+&lt;h2 id=&quot;layouts&quot;&gt;layouts&lt;/h2&gt;
+
+&lt;h2 id=&quot;includes&quot;&gt;includes&lt;/h2&gt;
+
+&lt;h2 id=&quot;assets&quot;&gt;assets&lt;/h2&gt;
+
+&lt;h2 id=&quot;使用进阶&quot;&gt;使用进阶&lt;/h2&gt;
+
+&lt;h3 id=&quot;自定义导航栏&quot;&gt;自定义导航栏&lt;/h3&gt;
+
+&lt;h2 id=&quot;贡献&quot;&gt;贡献&lt;/h2&gt;
+
+&lt;p&gt;Bug reports and pull requests are welcome on GitHub at https://github.com/myrsoft/jekyll-theme-octopress. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the &lt;a href=&quot;http://contributor-covenant.org&quot;&gt;Contributor Covenant&lt;/a&gt; code of conduct.&lt;/p&gt;
+
+&lt;h2 id=&quot;开发&quot;&gt;开发&lt;/h2&gt;
+
+&lt;p&gt;To set up your environment to develop this theme, run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Your theme is setup just like a normal Jekyll site! To test your theme, run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt; and open your browser at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000&lt;/code&gt;. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme’s contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.&lt;/p&gt;
+
+&lt;p&gt;When your theme is released, only the files in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;_sass&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;assets&lt;/code&gt; tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll-theme-octopress.gemspec&lt;/code&gt; accordingly.&lt;/p&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;Develop&quot;&gt;Develop&lt;/a&gt; file.&lt;/p&gt;
+
+&lt;h2 id=&quot;release-change-log&quot;&gt;Release (Change log)&lt;/h2&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;ChangeLog&quot;&gt;ChangeLog&lt;/a&gt; file.&lt;/p&gt;
+
+&lt;h2 id=&quot;致谢&quot;&gt;致谢&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/imathis&quot;&gt;Brandon Mathis&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;参考资料&quot;&gt;参考资料&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://jekyllrb.com&lt;/li&gt;
+  &lt;li&gt;https://github.com/imathis/octopress&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;开源许可&quot;&gt;开源许可&lt;/h2&gt;
+
+&lt;p&gt;该主题使用 &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt; 许可证开放源代码。&lt;/p&gt;</content><author><name>Raven Du</name></author><category term="jekyll" /><category term="theme" /><category term="octopress" /><summary type="html">jekyll-theme-octopress 是一个 Jekyll 的主题。</summary></entry></feed>

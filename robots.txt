@@ -1,0 +1,1 @@
+Sitemap: https://myrsoft.github.io/jekyll-theme-octopress/sitemap.xml
