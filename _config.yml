@@ -1,0 +1,49 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: 演示网站
+subtitle: 这是一个 jekyll-theme-octopress 主题的演示网站 # *theme custom*
+author: Raven Du     # *theme custom*
+# email:
+description: >- # this means to ignore newlines until "baseurl:"
+  这是一个 jekyll-theme-octopress 主题的演示网站.
+baseurl: "/jekyll-theme-octopress" # the subpath of your site, e.g. /blog
+url: "https://myrsoft.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-octopress
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - config.rb
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+permalink: /:year/:month/:title/
+
+excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
+subscribe_rss: /feed.xml
