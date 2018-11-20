@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="blog-index">
+  {% assign index = true %}
+  {% for post in paginator.posts %}
+  {% assign content = post.content %}
+    <article>
+      {% include article.html %}
+    </article>
+  {% endfor %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
+    {% endif %}
+    <a href="/archives">Blog Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
+    {% endif %}
+  </div>
+</div>
+{% unless page.sidebar == false %}
+<aside class="sidebar">
+
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/github.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/recent_posts.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/pinboard.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/googleplus.html %}
+  {% endunless %}
+  {% unless site.blog_index_asides.recent_posts == false %}
+    {% include asides/delicious.html %}
+  {% endunless %}
+</aside>
+{% endunless %}
