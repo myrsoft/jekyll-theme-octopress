@@ -120,6 +120,10 @@ article {
   ol ul { padding-left: 1.3em; }
   ol ol { padding-left: 1.3em; }
 
+  .entry-content > .footnotes > ol > li > p {
+    margin-bottom : 0.5em;
+  }
+
 }
 article + article {
   .blog-index & {
