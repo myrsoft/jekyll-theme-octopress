@@ -40,7 +40,6 @@
 ## 开发修改任务
 
 ### 以前就修改完成的
-- [Y]首行缩进两个字符
 
 ### 不紧急
 - 修改 网络字体默认使用 cdn
@@ -54,8 +53,6 @@
 - sidebar recent_posts 选项增加一个默认值
 - 配置文件中增加头像配置
 
-- [Y]修改 home layouts 不启用分页
-- [Y]table 增加 margin-bottom 1.5em 解决内容如果如果有表格和下面的内容排版太近
 - [Y]header 样式 修改 padding-top:0.5em;padding-bottom:1em
 - [Y]blockquote 字号 改成 font-size 1em 也就是删除掉
 - [YT]跳过，该问题不存在，现在显示的就是正确字数 首页因为不显示全文，所以去掉首页文章下面的 ’全文共 xxx 字‘，或者让首页显示整个文章的字数
