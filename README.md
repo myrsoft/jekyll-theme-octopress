@@ -12,7 +12,7 @@ jekyll-theme-octopress 是一个 Jekyll 的主题。
 
 ## 安装
 
-添加这行内容到你的 Jekyll 站点的 `Gemfile` 文件中：
+首先添加这行内容到你的 Jekyll 站点的 `Gemfile` 文件中：
 
 ```ruby
 gem "jekyll-theme-octopress"
@@ -24,13 +24,17 @@ gem "jekyll-theme-octopress"
 theme: jekyll-theme-octopress
 ```
 
-然后执行:
+最后执行:
 
-    $ bundle
+``` bash
+bundle
+```
 
 或者自己安装:
 
-    $ gem install jekyll-theme-octopress
+``` bash
+gem install jekyll-theme-octopress
+```
 
 ## 使用
 
