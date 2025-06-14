@@ -13,6 +13,8 @@ docker run -it --rm \
  -u 1000
  jekyll/jekyll:3.3 \
  bash
+
+docker run -it --rm -u 1000  -v $PWD:/srv/jekyll:Z  jekyll/jekyll:3.3  bash
  
 # 安装依赖
 bundle install
