@@ -10,6 +10,7 @@
 # 运行容器
 docker run -it --rm \
  -v $PWD:/srv/jekyll:Z \
+ -u 1000
  jekyll/jekyll:3.3 \
  bash
  
